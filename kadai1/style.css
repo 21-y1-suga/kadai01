@@ -1,0 +1,146 @@
+/* ここから下に記載していく */
+/* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav li {
+    margin-left: 40px;
+}
+
+/* mainvisual */
+.mainvisual {
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainvisual__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.mainvisual__subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Aboutエリア */
+.about {
+    text-align: center;
+    margin: 50px 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-bottom: 20px;
+}
+
+.about__subtitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.about__text {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* imgBox */
+.imgBox {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.imgBox p {
+    width: 25%;
+}
+
+.imgBox p img {
+    width: 100%;
+}
+
+/* course */
+.course {
+    margin: 50px 0;
+}
+
+.course__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.course__text {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 70px;
+}
+
+.course__box {
+    margin-top: 50px;
+}
+
+.course__inner {
+    display: flex;
+}
+
+.course__contet {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.course__contet__right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.course__contet img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.content__title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.content__text {
+    width: 100%;
+}
+
+.contet__left {
+    width: 70%;
+    margin-left: 50px;
+}
+
+.contet__right {
+    width: 70%;
+    margin-right: 50px;
+}
